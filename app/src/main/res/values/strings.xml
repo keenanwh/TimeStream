@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">TimeStream</string>
+    <string name="bold">Bold</string>
+    <string name="italic">Italic</string>
+    <string name="underline">Underline</string>
+    <string name="strikethrough">Strikethrough</string>
+    <string name="indent_right">Indent Right</string>
+    <string name="indent_left">Indent Left</string>
+    <string name="highlight">Highlight</string>
+    <string name="checkbox">Add Checkbox</string>
+    <string name="unordered_list">Unordered List</string>
+    <string name="ordered_list">Ordered List</string>
+    <string name="edit_text_hint">Type your notes here&#8230;</string>
 </resources>

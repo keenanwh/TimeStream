@@ -1,9 +1,26 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+<!-- app/src/main/res/values/themes.xml -->
+<resources>
+
+    <!-- Base application theme, which you already have. -->
     <style name="Base.Theme.TimeStream" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- For example:
+        <item name="colorPrimary">@color/my_light_primary</item>
+        -->
+
+        <!-- Override the default ImageButton style -->
+        <item name="android:imageButtonStyle">@style/MyDefaultImageButtonStyle</item>
     </style>
 
+    <!-- Derive your final theme from the base theme. -->
     <style name="Theme.TimeStream" parent="Base.Theme.TimeStream" />
+
+    <!-- This is the custom style for all ImageButtons -->
+    <style name="MyDefaultImageButtonStyle" parent="@android:style/Widget.ImageButton">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
 </resources>
